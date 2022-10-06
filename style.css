@@ -1,0 +1,138 @@
+/* ------------Flight Duration start------------- */
+.animation{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.segment-1 {
+    position: relative;
+    height: 2px;
+    width: 300px;
+    background-color: #c7c7c7;
+    margin-top: 10px;
+  }
+  
+  .segment-circle {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+  .circle-0 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5d7f9e;
+    margin-top: -5px;
+  }
+  
+  .segment-flight1 {
+    rotate: -90deg;
+    margin-top: -10px;
+    position: absolute;
+    animation: segmentone ease 2s infinite;
+    color: #003566;
+  }
+  
+  @keyframes segmentone {
+    0% {
+      left: 0%;
+      top: 0px;
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      left: 90%;
+      top: 0px;
+      opacity: 0;
+    }
+  }
+  /* ------Segment-2----------- */
+  
+  .segment02 {
+    position: relative;
+    height: 2px;
+    width: 300px;
+    background-color: #c7c7c7;
+    margin-top: 10px;
+  }
+  .segment-stop {
+    width: 20px;
+    height: 5px;
+    background-color: crimson;
+    margin-top: -1.5px;
+    border-radius: 5px;
+  }
+  .segment-flight02 {
+    rotate: -90deg;
+    margin-top: -10px;
+    position: absolute;
+    animation: segmenttwo ease-out 2.5s infinite;
+    color: #003566;
+  }
+  @keyframes segmenttwo {
+    0% {
+      left: 0%;
+      top: 0px;
+      opacity: 1;
+    }
+    50% {
+      left: 40%;
+      opacity: 1;
+    }
+    90% {
+      opacity: 0.5;
+    }
+    100% {
+      left: 90%;
+      top: 0px;
+      opacity: 0;
+    }
+  }
+  /* ------Segment-3----------- */
+  .segment03 {
+    position: relative;
+    height: 2px;
+    width: 300px;
+    background-color: #c7c7c7;
+    margin-top: 10px;
+  }
+  .segment-flight03 {
+    rotate: -90deg;
+    margin-top: -10px;
+    position: absolute;
+    animation: segmentthree ease 3s infinite;
+    color: #003566;
+  }
+  @keyframes segmentthree {
+    0% {
+      left: 0%;
+      top: 0px;
+      opacity: 1;
+    }
+    33% {
+      left: 25%;
+      opacity: 1;
+    }
+    66% {
+      left: 58%;
+      opacity: 1;
+    }
+    90% {
+      opacity: 0.5;
+    }
+    100% {
+      left: 90%;
+      top: 0px;
+      opacity: 0;
+    }
+  }
+  /* .btn0 {
+    background: linear-gradient(121.52deg, #5d7f9e 0%, #003566 77.49%);
+    border-radius: 0px 0px 5px 5px;
+    height: 100% !important;
+  } */
+  /* ------------Flight Duration End------------- */
